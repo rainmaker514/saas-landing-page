@@ -27,7 +27,7 @@ section {
   margin-top: 6rem;
 }
 
-h1{
+h1 {
   font-size: 5.4rem;
 }
 
@@ -35,10 +35,68 @@ h2 {
   font-size: 3.2rem;
 }
 
-h3{
+h3 {
   font-size: 2.2rem;
 }
 
-h4{
+h4 {
   font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+/* MOBILE NAV SECTION */
+.mobile-bar {
+  background: linear-gradient(
+    90deg,
+    #feecff 0%,
+    #fecaff 11.71%,
+    #feb5ff 26.8%,
+    #ffdbe7 40.18%,
+    #fff4d6 49.22%,
+    #f3fcd7 58.71%,
+    #d2f5ee 71.29%,
+    #c3efff 84.44%,
+    #fbefff 100%
+  );
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem;
+}
+
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.mobile-nav .logo {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* HERO SECTION */
+.version-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  margin: auto;
+  outline: 1px solid #222222;
+  border-radius: 10px;
+  padding: 1rem 1.3rem;
+}
+
+.left p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.right {
+  display: flex;
+  align-items: center;
 }
