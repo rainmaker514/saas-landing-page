@@ -146,10 +146,10 @@ p {
   margin-bottom: 3.2rem;
 }
 
-.companies{
+.companies {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);    
+  grid-template-rows: repeat(3, 1fr);
   padding: 0 2rem;
 }
 
@@ -171,9 +171,24 @@ p {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 100;
-  padding: 2rem 1.65rem 0;
+  padding: 2rem 0 6.6rem;
 }
-  
+
+.feature-card {
+  text-align: center;
+  background: var(--dark-gray);
+  padding: 4rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+.feature-card svg {
+  padding-bottom: 2.4rem;
+}
+
+.feature-card p{
+  padding-bottom: 4rem;
+}
 
 /* INTERFACE SECTION */
 .interface-section img {
