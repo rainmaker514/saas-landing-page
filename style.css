@@ -159,35 +159,41 @@ p {
 
 /* FEATURES SECTION */
 .features-section {
-  padding-top: 8rem;
-}
-
-.features-section h2 {
-  text-align: center;
-  padding: 2rem 0;
+  padding: 8rem 1.6rem 0;
 }
 
 .features-section p {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 100;
-  padding: 2rem 0 6.6rem;
+  padding-top: 2rem;
 }
 
-.feature-card {
+.features-title {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+
+.features-subtitle{
+  padding-bottom: 6.6rem;
+}
+
+.features-card {
   text-align: center;
   background: var(--dark-gray);
   padding: 4rem 2rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
+  margin-bottom: 1.6rem;
 }
 
-.feature-card svg {
+.features-card svg {
   padding-bottom: 2.4rem;
 }
 
-.feature-card p{
-  padding-bottom: 4rem;
+.features-card p{
+  /* padding-bottom: 4rem; */
 }
 
 /* INTERFACE SECTION */
