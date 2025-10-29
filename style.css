@@ -193,19 +193,80 @@ h4 {
 }
 
 /* INTERFACE SECTION */
+.interface-section {
+  padding-top: 13.4rem;
+}
+
 .interface-section img {
   width: 100%;
   border-radius: 10px;
+  padding-bottom: 16.1rem;
 }
 
-.interface-title{
+.interface-title {
   text-align: center;
   padding-bottom: 2rem;
 }
 
-.interface-description{
+.interface-description {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 100;
   padding-bottom: 4rem;
+}
+
+/* FAQ SECTION */
+.faq-title {
+  text-align: center;
+  padding-bottom: 2.9rem;
+}
+
+.faq-list {
+  padding: 0 1.2rem;
+  list-style: none;
+}
+
+.faq-item {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.faq-item h5 {
+  font-size: 1.8rem;
+}
+
+.divider {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* EMAIL SECTION */
+.email-section {
+  padding-top: 10.3rem;
+}
+
+.email-title{
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.email-description{
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-align: center;
+  padding: 0 2.9rem 4rem;
+}
+
+.email-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5.2rem;
+  gap: 10px;
+}
+
+.email-form input{
+padding: 0.9rem 1.2rem;
+border-radius: 10px;
 }
