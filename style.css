@@ -246,27 +246,48 @@ h4 {
   padding-top: 10.3rem;
 }
 
-.email-title{
+.email-title {
   text-align: center;
   padding-bottom: 4rem;
 }
 
-.email-description{
+.email-description {
   font-size: 1.6rem;
   font-weight: 100;
   text-align: center;
   padding: 0 2.9rem 4rem;
 }
 
-.email-form{
+.email-form {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 0 5.2rem;
   gap: 10px;
+  padding-bottom: 7.4rem;
 }
 
-.email-form input{
-padding: 0.9rem 1.2rem;
-border-radius: 10px;
+.email-form input {
+  padding: 0.9rem 1.2rem;
+  background: rgba(255, 255, 255, 0.2);
+  width: 286px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.email-form button {
+  padding: 1rem 1.5rem;
+  width: 286px;
+  height: 39px;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: none;
 }
