@@ -291,3 +291,17 @@ h4 {
   cursor: pointer;
   border: none;
 }
+
+/* FOOTER SECTION */
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+footer p {
+  padding: 5rem 0 0.8rem;
+}
+
+.social-icons {
+  padding-bottom: 5rem;
+}
