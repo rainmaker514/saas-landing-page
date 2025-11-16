@@ -127,7 +127,7 @@ h4 {
 }
 
 .cta {
-  margin-top: 3.2rem;
+  margin: 3.2rem 0 10rem;
   padding: 1.5rem 2rem;
   background: var(--white);
   color: var(--black);
@@ -136,7 +136,6 @@ h4 {
   font-size: 1.6rem;
   cursor: pointer;
   z-index: 1;
-  margin-bottom: 10rem;
 }
 
 .ellipse {
@@ -223,6 +222,10 @@ h4 {
 /* INTERFACE SECTION */
 .interface-section {
   padding-top: 13.4rem;
+  background: linear-gradient(
+    #000000 0%,
+    #200d42 40%
+  );
 }
 
 .interface-section img {
