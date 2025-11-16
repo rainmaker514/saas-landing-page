@@ -82,7 +82,16 @@ h4 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  background: linear-gradient(
+    #000000 0%,
+    #200d42 55%,
+    #4f21a1 75%,
+    #a46edb 100%
+  );
+  overflow: hidden;
 }
+
 .version-tag {
   display: flex;
   align-items: center;
@@ -126,6 +135,25 @@ h4 {
   font-weight: 500;
   font-size: 1.6rem;
   cursor: pointer;
+  z-index: 1;
+  margin-bottom: 10rem;
+}
+
+.ellipse {
+  position: absolute;
+  width: 200vw;
+  height: 359px;
+  /* left: calc(50% - 909px / 2 - 13.5px); */
+  top: 472px;
+  border-radius: 50%;
+  background: radial-gradient(
+    401.15% 103.55% at 50% 100%,
+    #000000 69.36%,
+    #9c67f4 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateY(-10%);
+  z-index: 0;
 }
 
 /* COMPANIES SECTION */
