@@ -222,10 +222,7 @@ h4 {
 /* INTERFACE SECTION */
 .interface-section {
   padding-top: 13.4rem;
-  background: linear-gradient(
-    #000000 0%,
-    #200d42 40%
-  );
+  background: linear-gradient(#000000 0%, #200d42 40%);
 }
 
 .interface-section img {
@@ -247,6 +244,10 @@ h4 {
 }
 
 /* FAQ SECTION */
+.faq-section {
+  background: linear-gradient(#200d42 50%, #000 100%);
+  margin: 0;
+}
 .faq-title {
   text-align: center;
   padding-bottom: 2.9rem;
