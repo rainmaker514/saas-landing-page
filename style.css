@@ -221,7 +221,7 @@ h4 {
 
 /* INTERFACE SECTION */
 .interface-section {
-  padding-top: 13.4rem;
+  padding: 13.4rem 1.6rem 0;
   background: linear-gradient(#000000 0%, #200d42 40%);
 }
 
@@ -247,6 +247,7 @@ h4 {
 .faq-section {
   background: linear-gradient(#200d42 50%, #000 100%);
   margin: 0;
+  padding: 0 1.6rem 0;
 }
 .faq-title {
   text-align: center;
@@ -254,7 +255,6 @@ h4 {
 }
 
 .faq-list {
-  padding: 0 1.2rem;
   list-style: none;
 }
 
@@ -336,4 +336,12 @@ footer p {
 
 .social-icons {
   padding-bottom: 5rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 376px) {
+  .faq-item h5 {
+    padding-right: 1.6rem;
+
+  }
 }
