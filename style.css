@@ -64,10 +64,6 @@ h4 {
   padding: 1.4rem;
 }
 
-.tablet-bar {
-  display: none;
-}
-
 .mobile-nav {
   display: flex;
   align-items: center;
@@ -80,8 +76,23 @@ h4 {
   padding-left: 0;
 }
 
+.logo {
+  width: 62px;
+  height: 55px;
+}
+
+/* DESKTOP NAV SECTION */
+.desktop-bar {
+  display: none;
+}
+
 .desktop-nav {
   display: none;
+}
+
+.desktop-nav .logo {
+  margin-left: 0;
+  padding-left: 0;
 }
 
 /* HERO SECTION */
@@ -215,7 +226,7 @@ h4 {
 }
 
 .features-card {
-  margin:auto;
+  margin: auto;
   text-align: center;
   background: var(--dark-gray);
   padding: 4rem 2rem;
@@ -239,7 +250,6 @@ h4 {
   width: 100%;
   border-radius: 10px;
   padding-bottom: 16.1rem;
-
 }
 
 .interface-title {
@@ -382,5 +392,47 @@ footer p {
     padding: 1.4rem;
     font-size: 1.4rem;
   } */
-   
+
+  .companies {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .desktop-bar {
+    background: linear-gradient(
+      90deg,
+      #feecff 0%,
+      #fecaff 11.71%,
+      #feb5ff 26.8%,
+      #ffdbe7 40.18%,
+      #fff4d6 49.22%,
+      #f3fcd7 58.71%,
+      #d2f5ee 71.29%,
+      #c3efff 84.44%,
+      #fbefff 100%
+    );
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    font-size: 1.4rem;
+  }
+
+  .mobile-bar {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
 }
