@@ -76,7 +76,7 @@ h4 {
   padding-left: 0;
 }
 
-.logo {
+.logo img{
   width: 62px;
   height: 55px;
 }
@@ -434,5 +434,17 @@ footer p {
 
   .mobile-nav {
     display: none;
+  }
+
+  .logo img{
+    width: 182px;
+    height: 52px;
+  }
+
+  .desktop-nav .cta{
+    margin: 0;
+    width: 115px;
+    height: 39px;
+    padding: 10px 14px;
   }
 }
