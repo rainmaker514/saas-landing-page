@@ -481,4 +481,20 @@ footer p {
     height: 156px;
     margin-right: -2rem;
   }
+
+  .companies-text {
+    font-size: 1.4rem;
+  }
+
+  h2{
+    font-size: 5.4rem;
+  }
+
+  .email-form {
+    flex-direction: row;
+  }
+
+  .email-form button{
+    width: 113px;
+  }
 }
