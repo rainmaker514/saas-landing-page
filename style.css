@@ -314,6 +314,7 @@ h4 {
   font-weight: 100;
   text-align: center;
   padding: 0 2.9rem 4rem;
+  margin: auto;
 }
 
 .email-form {
@@ -490,11 +491,28 @@ footer p {
     font-size: 5.4rem;
   }
 
+  .email-description {
+    width: 500px;
+  }
+
   .email-form {
     flex-direction: row;
   }
 
   .email-form button{
     width: 113px;
+  }
+
+  .email-section .img-container img{
+    width: 150px;
+    height: auto;
+  }
+
+  .email-section .img-container img:nth-child(1){
+    transform: translate(38px, -300px);
+  }
+
+  .email-section .img-container img:nth-child(2){
+    transform: translate(-21px, -140px);
   }
 }
