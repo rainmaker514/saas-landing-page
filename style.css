@@ -468,7 +468,7 @@ footer p {
     align-items: center;
     position: absolute;
     width: 100%;
-    transform: translateY(-100px);
+    transform: translateY(-150px);
   }
 
   .img-container img:nth-child(1){
@@ -514,5 +514,19 @@ footer p {
 
   .email-section .img-container img:nth-child(2){
     transform: translate(-21px, -140px);
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .social-icons{
+    padding: 2.3rem 4rem;
+  }
+
+  footer p{
+    padding: 2.3rem 4rem;
   }
 }
