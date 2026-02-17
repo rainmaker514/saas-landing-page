@@ -176,6 +176,7 @@ h4 {
 
 .img-container{
   display: none;
+  
 }
 
 /* COMPANIES SECTION */
@@ -467,8 +468,8 @@ footer p {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    width: 100%;
-    transform: translateY(-150px);
+    width: 900px;
+    transform: translateY(-100px);
   }
 
   .img-container img:nth-child(1){
@@ -530,3 +531,30 @@ footer p {
     padding: 2.3rem 4rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .img-container img:nth-child(1){
+    margin: 0;
+  }
+
+  .img-container img:nth-child(2){
+    margin: 0;
+  }
+
+  .hero-section .img-container img{
+    width: 200px;
+    height: auto;
+  }
+
+  .img-container{
+    width: 980px;
+  }
+}
+
+/* TODO @ 1024px*/
+/*  1. find a way to make imgs in header fixed in place next to title text
+    2. grab full imgs for header and footer, increase their sizes, position them properly
+    3. make companies grid one line
+    4. make features cards flex row
+    5. center faq list 
+*/
