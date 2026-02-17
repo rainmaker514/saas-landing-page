@@ -549,6 +549,11 @@ footer p {
   .img-container{
     width: 980px;
   }
+
+  .email-section .img-container img{
+    width: 225px;
+    height: auto;
+  }
 }
 
 /* TODO @ 1024px*/
