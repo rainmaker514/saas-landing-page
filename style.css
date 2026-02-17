@@ -463,7 +463,7 @@ footer p {
     padding-bottom: 1.6rem;
   }
 
-  .img-container{
+  .hero-section .img-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -502,6 +502,15 @@ footer p {
 
   .email-form button{
     width: 113px;
+  }
+
+  .email-section .img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-100px);
   }
 
   .email-section .img-container img{
@@ -546,7 +555,7 @@ footer p {
     height: auto;
   }
 
-  .img-container{
+  .hero-section .img-container{
     width: 980px;
   }
 
