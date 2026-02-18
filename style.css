@@ -568,6 +568,12 @@ footer p {
     display: flex;
     gap: 56px;
   }
+
+  .faq-list{
+    width: 675px;
+    margin: auto;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
