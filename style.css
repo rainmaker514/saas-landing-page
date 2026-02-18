@@ -563,11 +563,15 @@ footer p {
     width: 225px;
     height: auto;
   }
+
+  .companies{
+    display: flex;
+    gap: 56px;
+  }
 }
 
 /* TODO @ 1024px*/
-/*  1. find a way to make imgs in header fixed in place next to title text
-    2. grab full imgs for header and footer, increase their sizes, position them properly
+/*  
     3. make companies grid one line
     4. make features cards flex row
     5. center faq list 
