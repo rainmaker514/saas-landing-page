@@ -161,7 +161,6 @@ h4 {
   position: absolute;
   width: 200vw;
   height: 359px;
-  /* left: calc(50% - 909px / 2 - 13.5px); */
   top: 472px;
   border-radius: 50%;
   background: radial-gradient(
@@ -378,27 +377,6 @@ footer p {
     max-width: 457px;
   }
 
-  /* .tablet-bar {
-    background: linear-gradient(
-      90deg,
-      #feecff 0%,
-      #fecaff 11.71%,
-      #feb5ff 26.8%,
-      #ffdbe7 40.18%,
-      #fff4d6 49.22%,
-      #f3fcd7 58.71%,
-      #d2f5ee 71.29%,
-      #c3efff 84.44%,
-      #fbefff 100%
-    );
-    color: var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.4rem;
-    font-size: 1.4rem;
-  } */
-
   .companies {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -569,11 +547,10 @@ footer p {
     gap: 56px;
   }
 
-  .faq-list{
+  .faq-list {
     width: 675px;
     margin: auto;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -583,9 +560,8 @@ footer p {
   }
 }
 
-/* TODO @ 1024px*/
-/*  
-    3. make companies grid one line
-    4. make features cards flex row
-    5. center faq list 
+/* TODO 
+  - add navbar links to navbar
+  - add scroll animation to navbar
+  - add mobile nav sliding menu
 */
